@@ -1,0 +1,35 @@
+# place
+# can be:
+# 12, 30, 22, N ; 83, 12, 11, E
+# or
+# 41.12412423, S; 19.1231231, E
+# minus sign ignored
+# other formats are forbidden
+
+ 40, 01, 12, N ; 35, 13, 14, E
+
+# objects in format
+# name; date; date
+# name from de421.bsp or the_hipparcos_and_tycho_catalogue_names_file 
+#
+
+mars; 11-12-2023; 11-12-2023
+mars; 10-12-2023; 09-12-2023
+
+;2;1
+#sun; 22-12-2021;24-12-2021
+Uknown name;11-10-2021;12-10-2022
+wrong dates;2;2
+Betelgeza;01-11-2022;2-11-2022
+;01-07-2023;12-07-2023 # empty name
+8;1-1-2002,wrong 
+1-1-2002;8;wrong too 
+#AAA; ; ;
+#JUpiter;10-10-2024;12-10-2024
+  # ddud
+#MARS; 10-12-2023;15-12-2023
+#marS;9-10-2022; 13-10-2022
+#marS;9-10-2022; 13-10-2022
+#marS;15-10-2022; 17-10-2022
+moon; 29-12-2023; 30-12-2023 # blblbl ;-)
+moon ; 1-01-2024; 1-1-2024
